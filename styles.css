@@ -1,0 +1,174 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.logo {
+  width: 70px;
+  border-radius: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 25px;
+}
+
+body {
+  min-height: 100vh;
+  background: url(./images/background.jpg) no-repeat center;
+  background-size: cover;
+  backdrop-filter: blur(40px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+
+.card {
+  background-color: rgba(355, 255, 255, 0.95);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(211, 211, 211, 0.25);
+  border-radius: 2em;
+  height: 670px;
+  width: 400px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2em;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+}
+
+.info-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 2em;
+  font-size: 24px;
+}
+.info-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+}
+.info-2 span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.colors span {
+  font-weight: 600;
+}
+.info-2 .orange {
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  border-radius: 50%;
+}
+.info-2 .green {
+  height: 20px;
+  width: 20px;
+  background-color: greenyellow;
+  border-radius: 50%;
+}
+.info-2 .yellow {
+  height: 20px;
+  width: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#star {
+  color: gold;
+  font-size: 25px;
+  transition: 0.3s ease-in-out;
+}
+#star:hover {
+  text-shadow: 0 0 25px gold, 
+               0 0 50px gold;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: black;
+}
+.info-grid .pricing {
+  font-size: 42px;
+  font-weight: 800;
+  color: black;
+}
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+button {
+  padding: 10px 10px;
+  border-radius: 1em;
+  font-size: 14px;
+  gap: 0.5em;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:nth-of-type(1){
+  background-color: black;
+  color: white;
+}
+button:nth-of-type(1):hover {
+  background-color: white;
+  color: black;
+}
+button i {
+  font-size: 30px;
+}#start
+#heart {
+  color: red;
+  transition: 0.3s ease-in-out;
+}
+#heart:hover {
+  text-shadow: 0 0 25px red, 
+               0 0 50px red;
+}
